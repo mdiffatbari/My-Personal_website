@@ -9,3 +9,8 @@
     /* --font-heading-font : Syne, "sans-serif"; */
     --font-heading-font : Space Grotesk, "sans-serif";
 }
+
+
+*{
+    scroll-behavior: smooth;
+}

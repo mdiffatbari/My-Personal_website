@@ -8,6 +8,7 @@ import Skills from '../../Component/Skills/Skills';
 import Footer from '../../Component/Footer/Footer';
 import Education from '../../Component/Education/Education';
 import Contact from '../../Component/Contact/Contact';
+import Project from '../../Component/Project/Project';
 
 const Home = () => {
     return (
@@ -20,6 +21,7 @@ const Home = () => {
                 <About></About>
                 <Skills></Skills>
                 <Education></Education>
+                <Project></Project>
                 <Contact></Contact>
                 <Footer></Footer>
             </div>

@@ -4,7 +4,7 @@ import logo from "../../assets/logo/fav (3).png"
 const Navbar = () => {
     return (
         <div>
-            <div className='w-11/12 mx-auto rounded-4xl bg-white py-2 px-3 mt-7 shadow-lg outline outline-black/5 dark:bg-slate-800 dark:shadow-none dark:-outline-offset-1 dark:outline-white/10'>
+            <div className='w-11/12 mx-auto rounded-full bg-white/10 backdrop-blur-md border border-white/20 mt-5 px-3'>
                 <div className="navbar">
                     <div className="navbar-start">
                         <div className="dropdown">
@@ -27,7 +27,7 @@ const Navbar = () => {
                         </ul>
                     </div>
                     <div className="navbar-end">
-                        <a className="btn">Download Resume</a>
+                        <a className="btn bg-[#fd563f] rounded-4xl">Download Resume</a>
                     </div>
                 </div>
             </div>
